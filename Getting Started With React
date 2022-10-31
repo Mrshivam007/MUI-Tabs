@@ -1,0 +1,8 @@
+Step 1:
+npx create-react-app my-react
+
+Step 2:
+cd my-react
+
+Step 3:
+npm start
