@@ -49,3 +49,7 @@ Adding Navbar:
         <AccessibilityNewIcon sx={{ marginRight: "82rem" }} color="primary" />
       </nav>
 ```
+
+Adding Cards:
+[Cards](https://getbootstrap.com/docs/5.2/components/card/)
+
