@@ -119,6 +119,28 @@ import ThreeDRotation from '@mui/icons-material/ThreeDRotation';
 import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
 ```
 
+Adding Icons Color
+```
+<HomeIcon />
+<HomeIcon color="primary" />
+<HomeIcon color="secondary" />
+<HomeIcon color="success" />
+<HomeIcon color="action" />
+<HomeIcon color="disabled" />
+<HomeIcon sx={{ color: pink[500] }} />
+```
+
+Adding Icons Size
+```
+<HomeIcon fontSize="small" />
+<HomeIcon />
+<HomeIcon fontSize="large" />
+<HomeIcon sx={{ fontSize: 40 }} />
+```
+
+### For more styling Icons 
+[Icons Material](https://mui.com/material-ui/icons/)
+
 
 
 
