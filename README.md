@@ -107,12 +107,22 @@ Adding Icons-Material
 ```
 npm install @mui/icons-material
 ```
+
 Adding Icons
 ```
 import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
 import ThreeDRotation from '@mui/icons-material/ThreeDRotation';
 ```
             or
+```
+import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+```
+
+```
+import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
+import ThreeDRotation from '@mui/icons-material/ThreeDRotation';
+```
+        or
 ```
 import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
 ```
