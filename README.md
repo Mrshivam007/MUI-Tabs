@@ -16,7 +16,7 @@ Step 3:
 npm start
 ```
 
-## Getting Started with Bootstrap
+## Getting Started with [Bootstrap](https://getbootstrap.com/docs/5.2/getting-started/introduction/)
 Adding CSS:
 ```
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
@@ -102,15 +102,22 @@ npm install @mui/material @emotion/react @emotion/styled
 ```
 
 ### [Icons](https://mui.com/material-ui/material-icons/)
-Step 1:
-```
-npm install @mui/material @mui/styled-engine-sc styled-components
-```
 
-Step 2:
+Adding Icons-Material
 ```
 npm install @mui/icons-material
 ```
+Adding Icons
+```
+import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
+import ThreeDRotation from '@mui/icons-material/ThreeDRotation';
+```
+            or
+```
+import { AccessAlarm, ThreeDRotation } from '@mui/icons-material';
+```
+
+
 
 
 
