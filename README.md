@@ -51,5 +51,6 @@ Adding Navbar:
 ```
 
 Adding Cards:
-[Cards](https://getbootstrap.com/docs/5.2/components/card/)
+
+To use cards go to [Bootstrap Cards](https://getbootstrap.com/docs/5.2/components/card/)
 
