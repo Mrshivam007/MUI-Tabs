@@ -1,6 +1,6 @@
 # React-Tutorial
 
-## Getting Started With React
+## Getting Started With React 👾
 Step 1:
 ```
 npm create-react-app my-react
