@@ -54,6 +54,66 @@ Adding Cards:
 
 To use cards go to [Bootstrap Cards](https://getbootstrap.com/docs/5.2/components/card/)
 
+## Getting Started with [React-Routers](https://reactrouter.com/en/main/start/tutorial)
+Starter Code:
+```
+npm install react-router-dom
+```
+
+### In App.js:
+Import Items
+```
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
+```
+
+Adding Components and Pages
+```
+ <BrowserRouter>
+<Header />   
+
+     <Routes>
+      <Route path='/' element={<Home />}></Route>
+     <Route path='/home' element={<Home />}></Route>
+     </Routes>
+   
+    </BrowserRouter>
+```
+
+### In Header.jsx
+Import
+```
+import {Link} from 'react-router-dom';
+```
+
+Adding Link
+```
+<Link  to="/home">Home</Link>
+```
+        or
+```
+<Link to='/home' class="btn btn-primary" role="button">Home</Link>
+```
+
+
 ## Getting Started with [MUI](https://mui.com/)
+Starter Code:
+```
+npm install @mui/material @emotion/react @emotion/styled
+```
+
+### [Icons](https://mui.com/material-ui/material-icons/)
+Step 1:
+```
+npm install @mui/material @mui/styled-engine-sc styled-components
+```
+
+Step 2:
+```
+npm install @mui/icons-material
+```
+
+
+
+
 
 
