@@ -3,7 +3,7 @@
 ## Getting Started With React 👾
 **Step 1:**
 ```
-npm create-react-app my-react
+npx create-react-app my-react
 ```
 
 **Step 2:**
