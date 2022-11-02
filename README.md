@@ -67,7 +67,7 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 
 **Adding Components and Pages**
 ```
- <BrowserRouter>
+<BrowserRouter>
         <Header />
 
         <Routes>
