@@ -68,14 +68,14 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 **Adding Components and Pages**
 ```
  <BrowserRouter>
-<Header />   
+        <Header />
 
-     <Routes>
-      <Route path='/' element={<Home />}></Route>
-     <Route path='/home' element={<Home />}></Route>
-     </Routes>
-   
-    </BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />}></Route>
+          <Route path='/home' element={<Home />}></Route>
+        </Routes>
+
+      </BrowserRouter>
 ```
 
 ### In Header.jsx
